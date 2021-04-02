@@ -21,7 +21,7 @@ document.addEventListener('mousemove',function(e){
   heart.style.left = left + deltaX + 'px'
   heart.style.top = top + deltaY + 'px'
   position = [x,y];
-  console.log(position);
+//   console.log(position);
 })
 document.addEventListener('mouseup', function(e){
   dragging = false
